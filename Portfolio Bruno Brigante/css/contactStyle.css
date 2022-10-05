@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* thans html section --- */
+.thanks {    
+    height: 93vh;
+    background-color:rgb(0, 0, 0);   
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+}
+.thanks h2{ 
+    font-family: 'Poppins', sans-serif;    
+    margin-top: 150px; 
+    margin-left: 20px;
+    margin-right: 20px;  
+    font-size: 35px;
+    text-align: center;    
+}
+.thanks span {
+    color: blue;
+}
+.thanks a {    
+    background: rgb(104, 211, 38);
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 36px;    
+    border-radius: 6px;
+    border: 2px solid rgb(104, 211, 38);
+    transition: all 0.3s ease;    
+}
+.thanks a:hover {
+    border-radius: 60px;
+    color: rgb(104, 211, 38);
+    background: none;
+}
+
+
+/* footer sectoin styling */
+
+footer {
+    height: 8vh;   
+    background: #111;
+    padding: 20px 23px;
+    color: #fff;
+    text-align: right;    
+}
+footer span a {    
+    color: rgb(72, 201, 65);
+    text-decoration: none;
+}
+footer span a:hover {
+    text-decoration: underline;
+}
+footer .redes a {
+    font-size: 25px;    
+    padding: 0 10px;   
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+footer .redes a:hover {    
+    color: rgba(84, 220, 72, 0.997); 
+}

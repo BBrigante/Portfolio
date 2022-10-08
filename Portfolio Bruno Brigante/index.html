@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Bruno Brigante</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Portfólio Bruno Brigante</title>
+    <link rel="stylesheet" href="style.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 </head>
@@ -20,14 +21,14 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#home">Portfo<span>lio.</span></a></div>
+            <div class="logo"><a href="#home">Portfó<span>lio.</span></a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#home" class="menu-btn">Inicio</a></li>
+                <li><a href="#about" class="menu-btn">Sobre</a></li>
+                <li><a href="#services" class="menu-btn">Projetos</a></li>
+                <li><a href="#skills" class="menu-btn">Habilidades</a></li>
+                <li><a href="#teams" class="menu-btn">Equipe</a></li>
+                <li><a href="#contact" class="menu-btn">Contato</a></li>
             </ul>
             <div class="menu-btn">
                 <ion-icon name="reorder-four"></ion-icon>
@@ -35,89 +36,96 @@
         </div>
     </nav>
 
-    <!-- home section start -->
+    <!-- home section start - (Inicio) -->
     <section class="home" id="home">       
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
+                <div class="text-1">Olá! Eu me chamo,</div>
                 <div class="text-2">Bruno Brigante</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#about">Learn more</a>
+                <div class="text-3"><span class="typing"></span></div>
+                <a href="#about">Saiba mais</a>
             </div>            
         </div>     
     </section>
 
-    <!--about section start-->
+    <!--about section start - (Sobre)-->
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">About me</h2>
+            <h2 class="title">Sobre</h2>
             <div class="about-content">
                 <div class="column left">
                     <img src="/Imagem/profile-me-min.jpg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text"><span class="typing-2"></span></div>
-                    <p>Welcome! As you already know my name is Bruno Brigante, born in June 1989 in São Bernardo do Campo/SP and currently living in the countryside of São Paulo, in the city of Águas de Lindóia/SP. Enrolled and duly studying systems analysis and development, I'm still looking to migrate my profession and thus achieving personal and professional fulfillment. I live in constant learning and I keep evolving to always meet expectations.</p>
+                    <p>Bem-vindo! Como vocês já sabem meu nome é Bruno Brigante, nascido em junho de 1989 em São Bernardo do Campo/SP e atualmente morando no interior, na cidade de Águas de Lindóia/SP. Sou uma pessoa de boa índole, atencioso, ético, comunicativo e sem preconceitos. Matriculado e estudando análise e desenvolvimento de sistemas, buscando migrar de profissão e assim alcançar a realização pessoal e profissional na área em que estou em cursando. Vivo em constante aprendizado e continuo evoluindo para sempre atender as expectativas.</p>
                     <br>
                     <p><ion-icon name="arrow-down-circle"></ion-icon></p>
                     <br>
-                    <a href="/file download/Bruno-Brigante-Curriculo.pdf" download="">Download CV</a>
+                    <a href="/Arquivo pdf/Bruno-Brigante-Curriculo.pdf" download="">Download CV</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--services section start-->
+    <!--projets section start = (Projetos)-->
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">My services</h2>
+            <h2 class="title">Projetos</h2>
             <div class="serv-content">
                 <div class="card">
-                    <a href="/MyServices/academic.html" target="_blank">                    
+                    <a href="/Projetos/academico.html" target="">                    
                     <div class="box">                                                
                         <ion-icon  name="brush-outline"></ion-icon>                        
-                        <div class="text">Academic<br>Projects</div>
-                        <p>Developments of academics projects and free courses.</p>                        
+                        <div class="text">Acadêmicos</div>
+                        <p>Desenvolvimentos de projetos acadêmicos e cursos livres.</p>                        
+                        <br>
+                        <i>Clique</i>
                     </div>
                     </a>
                 </div>
 
                 <div class="card">
-                    <a href="/MyServices/professional.html" target="_blank">                    
+                    <a href="/Projetos/profissional.html" target="">                    
                     <div class="box">
                         <ion-icon name="business-outline"></ion-icon>
-                        <div class="text">Professional<br>Projects</div>
-                        <p>Front/back end professional developments.</p>   
+                        <div class="text">Profissionais</div><br>
+                        <p>Desenvolvimentos profissional</p>   
+                        <br>
+                        <i>Clique</i>
                     </div>
                     </a>
                 </div>
 
                 <div class="card">
-                    <a href="/MyServices/personal.html" target="_blank">
+                    <a href="/Projetos/pessoal.html" target="">
                     <div class="box">
                         <ion-icon name="code-slash-outline"></ion-icon>
-                        <div class="text">Personal<br>Projects</div>
-                        <p>Personal developments of front/back end projects.</p>
+                        <div class="text">Pessoais</div>
+                        <p>Desenvolvimentos de projetos pessoais</p>
+                        <br>
+                        <i>Clique</i>
                     </div>
+                        
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--skills section start-->
+    <!--skills section start= (Habilidades)-->
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">My Skills</h2>
+            <h2 class="title">Habilidades</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <div class="text">My Experience & Certifications</div>
+                    <div class="text">Habilidades e Certificações</div>
                     <br>
-                    <p>I've been specializing in web development, both front and back end, with appreciation and dedication I've been enabling myself day after day so I can contribute to the maximum capacity. Developing in visual studio code or visual studio, with simple projects using the languages ​​described in the theme or in the projects of the topic my services.<br> Studying courses in ajax, json, react, Sass, bootstrap, next.js, node.js among others.</p>
+                    <p>Tenho me especializado em desenvolvimento, tanto front quanto back end, com apreço e dedicação tenho me capacitado dia após dia para poder contribuir com a capacidade máxima. Desenvolvendo em visual studio code ou visual studio, com projetos simples utilizando as linguagens descritas na planilha ou nos projetos do tópico "Projetos". Conhecimentos básicos Git/GitHub e Banco de dados PHP/MYSQL, com servidores Apache/XAMPP.<br> Cursando cursos em ajax, json, react, Sass, bootstrap, next.js, node.js, entre outros.</p>
                     <br>
-                    <p>Check out my certificates below.<ion-icon name="arrow-down-circle"></ion-icon></p>
+                    <p>Confira meus certificados abaixo.<ion-icon name="arrow-down-circle"></ion-icon></p>
                     <br>
-                    <a href="/MySkills/Skills.html" target="">Summary of Certifications</a>
+                    <a href="/Qualidades/Skills.html" title="Clique" target="">Resumo das Certificações</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -151,48 +159,54 @@
                         <div class="line c"></div>
                     </div>                    
                     <div class="bars">
-                        <div class="info"><img src="https://img.icons8.com/officel/36/000000/php-logo.png"/>
+                        <div class="info"><i><img src="https://img.icons8.com/officel/36/000000/php-logo.png"/></i>
                             <span>PHP</span>
                         </div>
                         <div class="line php"></div>
                     </div>
                     <div class="bars">
-                        <div class="info"><i><img src="https://img.icons8.com/fluency/36/000000/my-sql.png"/></i>
-                            <span>MySQL</span>
+                        <div class="info"><i><img src="https://img.icons8.com/fluency/36/000000/my-sql.png"/><iconify-icon icon="logos:apache" width="40" height="32"></iconify-icon><iconify-icon icon="logos:xampp" width="40" height="32"></iconify-icon></i>
+                            <span>MySQL - Apache - XAMPP</span>
                         </div>
                         <div class="line sql"></div>
-                    </div>            
+                    </div>           
                 </div>
             </div>
         </div>
     </section>
 
-    <!--teams section start -->
+    <!--teams section start = (Equipe)-->
 
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">My Teams</h2>
+            <h2 class="title">Equipe</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
+                    <a href="https://www.linkedin.com/in/bruno-brigante-2b04331a3/" target="_blank">
                     <div class="box">
-                        <img src="./MyTeams/profile-Teams-min.png" alt="">
+                        <img src="./Time/profile-Teams-min.png" alt="">
                         <div class="text">Bruno B.</div>
-                        <p>Student Systems Analysis and Development.</p>
+                        <p>Estudante Análise e Desenvolvimento de Sistemas.</p>
                     </div>
+                    </a>
                 </div>
                 <div class="card">
+                    <a href="https://www.linkedin.com/in/gustavo-medeiros-thomaz-77819420a/" target="_blank">
                     <div class="box">
-                        <img src="/MyTeams/Profile-Gustavo-min.png" alt="">
+                        <img src="/Time/Profile-Gustavo-min.png" alt="">
                         <div class="text">Gustavo M.</div>
-                        <p>Student Information Technology Management</p>
+                        <p>Estudante Gestão de Tecnologia da Informação</p>
                     </div>
+                    </a>
                 </div>
                 <div class="card">
+                    <a href="https://www.linkedin.com/in/paulo-barbosa-b712561a3/" target="_blank">
                     <div class="box">
-                        <img src="/MyTeams/Paulo-min.png" alt="">
+                        <img src="/Time/Paulo-min.png" alt="">
                         <div class="text">Paulo I.</div>
-                        <p>mechanical engineering<br>student.</p>
+                        <p>Estudante<br>Engenharia Mecânica.</p>
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -200,27 +214,27 @@
 
 
     
-    <!--contact section star-->
+    <!--contact section star = (Contato)-->
 
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">Contact me</h2>
+            <h2 class="title">Contato</h2>
             <div class="contact-content">
                 <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>Thank's for your visit. Feel free to get in touch wherever you prefer.<br>I will be responding as soon as possible.</p>
+                    <div class="text">Entrar em contato</div>
+                    <p>Obrigado pela sua visita. Sinta-se à vontade para entrar em contato onde preferir. Estarei respondendo o mais breve possível.</p>
                     <div class="icons">
                         <div class="row">
                             <ion-icon name="person-sharp"></ion-icon>
                             <div class="info">
-                                <div class="head">Name</div>
+                                <div class="head">Nome</div>
                                 <div class="sub-title">Bruno Brigante</div>
                             </div>
                         </div>
                         <div class="row">
                             <ion-icon name="location-sharp"></ion-icon>
                             <div class="info">
-                                <div class="head">Address</div>
+                                <div class="head">Endereço</div>
                                 <div class="sub-title">Águas de Lindoia / São Paulo - Brazil</div>
                             </div>
                         </div>
@@ -234,33 +248,33 @@
                         <div class="row">
                             <ion-icon name="logo-whatsapp"></ion-icon>
                             <div class="info">
-                                <div class="head">Telephone</div>
+                                <div class="head">Telefone</div>
                                 <div class="sub-title">+55 (19) 9 9818-5150</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column right">
-                    <div class="text">Message</div>
+                    <div class="text">Mensagem</div>
                     <form action="https://formsubmit.co/contact@brunobrigante.tech" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" name="name" placeholder="- Name -" required>
+                                <input type="text" name="name" placeholder="- Nome -" required>
                             </div>                           
                             <div class="field email">
                                 <input type="email" name="email" placeholder="- Email -" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" name="message" placeholder="- Subject Title -" required>
+                            <input type="text" name="message" placeholder="- Título do assunto -" required>
                         </div>
                         <div class="field textarea">
-                            <textarea name="message" cols="30" rows="10" placeholder="- How can I help you...? -" required></textarea>
+                            <textarea name="message" cols="30" rows="10" placeholder="- Como posso ajudá-lo...? -" required></textarea>
                         </div>
                         <div class="button">
                             <input type="hidden" name="_next" value="http://brunobrigante.tech//contact.html">
                             <input type="hidden" name="_captcha" value="false">
-                            <button type="submit">Send message</button>
+                            <button type="submit">Enviar Mensagem</button>
                         </div>
                     </form>
                 </div>
@@ -276,9 +290,9 @@
             <a href="https://github.com/BBrigante" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
             <a href="https://www.instagram.com/bruno.brigante/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>      
         </div> 
-        <span>Created by <a href="https://www.linkedin.com/in/bruno-brigante-2b04331a3" target="_blank">Bruno Brigante</a><span></span><span></span>
+        <span>Criado por <a href="https://www.linkedin.com/in/bruno-brigante-2b04331a3" target="_blank">Bruno Brigante.</a><span></span><span></span>
     </footer>    
 </body>
-<script src="Js/scriptjs.js"></script>
+<script src="/scriptjs.js"></script>
 </html> 
 

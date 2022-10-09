@@ -706,6 +706,9 @@ footer .redes a:hover {
 
 @media(max-width: 502px) {
 
+.home .home-content .text-1 {
+    margin-top: -25px;
+}
 .home .home-content .text-2 {
     font-size: 50px;
 }
@@ -714,15 +717,28 @@ footer .redes a:hover {
 }
 }
 
-@media(max-width: 422px) {
+@media(max-width: 412px) {
 
 .home .home-content .text-1 {
-    font-size: 30px;
+    font-size: 26px;
 }
 .home .home-content .text-2 {
     font-size: 40px;
 }
 .home .home-content .text-3 {
-    font-size: 20px;    
+    font-size: 26px;    
+}
+}
+
+@media(max-width: 337px) {
+
+.home .home-content .text-1 {
+    font-size: 22px;
+}
+.home .home-content .text-2 {
+    font-size: 35px;
+}
+.home .home-content .text-3 {
+    font-size: 23px;    
 }
 }

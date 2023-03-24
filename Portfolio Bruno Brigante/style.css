@@ -106,7 +106,7 @@ html{
 /*home section styling */
 .home {
     display: flex;
-    background: url("/Imagem/background-1.jpg") no-repeat center;
+    background: url("/Imagem/BackGround.jpg") no-repeat center;
     background-color:black;
     height: 100vh;
     color: #fff;
@@ -380,25 +380,19 @@ section .title::after{
     background: rgb(72, 201, 65);
 }
 .skills .skills-content .right .html::before {
-    width: 60%;
+    width: 40%;
 }
 .skills .skills-content .right .css::before {
-    width: 45%;
+    width: 40%;
 }
 .skills .skills-content .right .js::before {
     width: 30%;
 }
-.skills .skills-content .right .py::before {
-    width: 15%;
-}
 .skills .skills-content .right .c::before {
-    width: 10%;
-}
-.skills .skills-content .right .php::before {
-    width: 15%;
+    width: 60%;
 }
 .skills .skills-content .right .sql::before {
-    width: 15%;
+    width: 45%;
 }
 
 /* teams section styling */
@@ -689,8 +683,11 @@ footer .redes a:hover {
 .max-width {
     padding: 0 23px;
 } 
+.home {
+    background: url("/Imagem/background-2.jpg") no-repeat center;
+}
 .home .home-content .text-2 {
-    font-size: 60px;
+    font-size: 55px;
 }
 .home .home-content .text-3 {
     font-size: 32px;    
@@ -706,10 +703,41 @@ footer .redes a:hover {
 
 @media(max-width: 502px) {
 
+.home .home-content .text-1 {
+    margin-top: -25px;
+}
 .home .home-content .text-2 {
-    font-size: 50px;
+    font-size: 45px;
 }
 .home .home-content .text-3 {
     font-size: 27px;    
+}
+}
+
+@media(max-width: 412px) {
+
+.home .home-content .text-1 {
+    font-size: 22px;
+    margin-top: -35px;
+}
+.home .home-content .text-2 {
+    font-size: 35px;
+}
+.home .home-content .text-3 {
+    font-size: 25px;    
+}
+}
+
+@media(max-width: 337px) {
+
+.home .home-content .text-1 {
+    font-size: 20px;
+    margin-top: -50px;
+}
+.home .home-content .text-2 {
+    font-size: 30px;
+}
+.home .home-content .text-3 {
+    font-size: 22px;    
 }
 }
